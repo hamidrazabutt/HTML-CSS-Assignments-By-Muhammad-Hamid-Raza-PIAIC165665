@@ -7,55 +7,6 @@
 }
 
 
-.btn {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.btn__home > img {
-    width: 50px;
-    height: 50px;
-    border: none;
-}
-
-.btn__home > img:hover {
-    color: rgb(167, 4, 4);
-    background-color: green;
-    border: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-
-.heading {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 900;
-}
-
-.item__heading {
-  font-size: 36px;
-  font-weight: bold;
-  text-shadow: 2px -1px rgba(77, 76, 76, 0.589);
-}
-
-.item__text {
-  font-size: 30px;
-  text-align: justify;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-  p.intro:first-letter {
-    
-font-size: 150%;}
-
-.intro {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-}
-
 .row {
   display: flex;
   justify-content: space-between;
@@ -83,11 +34,13 @@ font-size: 150%;}
 h5 {
   font-weight: 300;
 }
+
 p {
   margin-top: -20px;
   font-size: 22px;
   color: rgb(141, 141, 141);
 }
+
 
 .btn1 {
   color: white;
@@ -102,13 +55,4 @@ p {
   border: none;
 }
 
-.btn__git > img {
-  width: 200px;
-  border: none;
-}
 
-.btn__git > img:hover {
-  background-color: rgb(98, 231, 86);
-  border: none;
-  width: 200px;
-}
