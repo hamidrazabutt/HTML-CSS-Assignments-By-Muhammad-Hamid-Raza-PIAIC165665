@@ -1,35 +1,98 @@
 <html>
 <head>
     <title>Ch_8_final_assignment_of_html</title>
+    <style>
+.header
+{
+    display: flex;
+    justify-content: right;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.logo > img 
+{
+    width: 160px;
+    margin-left: 20px;
+}
+
+.menu 
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom:  auto;
+    font-size: 22px;
+}
+
+.list > li {
+    margin-left: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.text1 
+{
+    font-size: 30pt;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: full
+}
+
+.footer 
+{
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+    color: rgb(10, 10, 10);
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+    </style>
 </head>
 <body>
-    <div style="background:powderblue;border:1px solid #000000;padding: 5px;" contextmenu="mymenu">
 
-        <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
-        
-        <ul>
+    <header class="header">
+        <div class="logo">
+           <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
+        </div>
+
+        <div class="menu">
+        <ul class="list">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-
         </ul>
-    
     </div>
-
-
-        <br>
-        <img src="../ch_8_Final_Assignment_of_HTML/images/cloud.jpg" alt="cloud" width="100%">
- 
-        <h1 >STC is an innovator in the digital world, we help our clients identify new opportunities, lead change, and <br />
+</header>
+<figure>
+        <img src="../ch_8_Final_Assignment_of_HTML/images/cloud.jpg" alt="cloud" width="100%";>
+    </figure>
+        <p class="text1">STC is an innovator in the digital world, we help our clients identify new opportunities, lead change, and <br />
             differentiate their brand. Our process is driven by data analysis coupled with a deep understanding of the <br />
             customer experience. Whether clients need digital marketing services or consulting, they come to us to <br />
             present themselves effectively in the digital arena.
-        </h1>
+        </p>
+    </div>
 
-        <footer>
-            <div style="background:powderblue;border:1px solid #000000;padding: 2px;">
-            <p align="center"><b>Copyright &copy; 2019. All rights reserved.</b></p>
+        <footer class="footer">
+            <p><b>Copyright &copy; 2019. All rights reserved.</b></p>
         </footer>
     </div>
 </body>
