@@ -1,50 +1,117 @@
 <html>
 <head>
     <title>Ch_8_final_assignment_of_html</title>
-</head>
-<body>
-    <div style="background:powderblue;border:1px solid #000000;padding: 5px;" contextmenu="mymenu">
+    <style>
+        .header
+        {
+            display: flex;
+            justify-content: right;
+            background-color: lightblue;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+                
+        .logo > img 
+        {
+            width: 160px;
+            margin-left: 20px;
+        }
+        
+        .menu 
+        {
+            justify-content: center;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom:  auto;
+            font-size: 22px;
+        }
+        
+        .list > li {
+            margin-left: 20px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+    .text2 
+    {
+        font-size: 28px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
 
-        <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
+    .list2
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 28px;
+    }
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        .footer 
+        {
+            display: flex;
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            background-color:lightblue;
+            color: black;
+            border-radius: 15px 15px 0px 0px;
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+            </style>
+        </head>
+        
+        
+        <body>
+        
+            <header class="header">
+                <div class="logo">
+                   <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
+                </div>
+        
+                <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
 
-        </ul>
-        </div>
+        <p class="text2"><img src="../ch_8_Final_Assignment_of_HTML/images/AU.png" alt="Bird" width="350" height="350" align= "right" />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit na m minima suscipit minus cum ducimus, sequi saepe voluptas unde atque co mmodi, sit voluptatum praesentium ratione aliquam quo quae officia distinc tio. Dolores officiis eos repudiandae fugit excepturi quod saepe odio ipsum. Quibusdam beatae impedit, assumenda tempore quis provident aliquid prae sentium at dolorum obcaecati quaerat tenetur sed voluptatem corrupti qua s asperiores numquam. Magnam blanditiis ipsa commodi. Perferendis temp ore optio doloribus, totam in odit blanditiis corrupti dolor consectetur aliqui d illo, eveniet unde. Quos obcaecati cum cumque, optio rem similique ….. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit nam minima suscipit minus cum du cimus, sequi saepe voluptas unde atque commodi, sit voluptatum praesentium ratione aliquam quo quae offi cia distinctio. Dolores officiis eos repudiandae fugit excepturi quod saepe odio ipsum. Quibusdam beatae ..
+        </p>
 
-        <br>
-        <img src="../ch_8_Final_Assignment_of_HTML/images/AU.png" alt="cloud" width="250px" height="150px" align="right">
- 
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit na m minima suscipit minus cum ducimus, sequi saepe voluptas unde atque co mmodi, sit voluptatum praesentium ratione aliquam quo quae officia distinc tio. Dolores officiis eos repudiandae fugit excepturi quod saepe odio ipsum. Quibusdam beatae impedit, assumenda tempore quis provident aliquid prae sentium at dolorum obcaecati quaerat tenetur sed voluptatem corrupti qua s asperiores numquam. Magnam blanditiis ipsa commodi. Perferendis temp ore optio doloribus, totam in odit blanditiis corrupti dolor consectetur aliqui d illo, eveniet unde. Quos obcaecati cum cumque, optio rem similique ….. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit nam minima suscipit minus cum du cimus, sequi saepe voluptas unde atque commodi, sit voluptatum praesentium ratione aliquam quo quae offi cia distinctio. Dolores officiis eos repudiandae fugit excepturi quod saepe odio ipsum. Quibusdam beatae ..
-        </h3>
-
-        <ul><b>
+        <ul class="list2">
             <li>Linux</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Java-Script</li>
             <li>Docker</li>
             <li>Kubernetes</li>
-        </b>
         </ul>
 
         <iframe width="550" height="350" src="https://www.youtube.com/embed/m4g0zd4E_bo" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
-        <br />
-        <br />
 
 
 
-        <footer>
-            <div style="background:powderblue;border:1px solid #000000;padding: 2px;">
-            <p align="center"><b>Copyright &copy; 2019. All rights reserved.</b></p>
-        </footer>
     </div>
+    <footer class="footer">
+        <p><b>Copyright &copy; 2019. All rights reserved.</b></p>
+    </footer>
+    </div>
+    
 </body>
 </html>
 
