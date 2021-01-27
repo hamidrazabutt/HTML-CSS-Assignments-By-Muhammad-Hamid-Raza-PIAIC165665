@@ -1,20 +1,83 @@
 <html>
 <head>
     <title>Ch_8_final_assignment_of_html</title>
-</head>
-<body>
-    <div style="background:powderblue;border:1px solid #000000;padding: 5px;" contextmenu="mymenu">
 
-        <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
+    <style>
+    
+        .header
+        {
+            display: flex;
+            justify-content: right;
+            background-color: lightblue;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+        
+        .logo > img 
+        {
+            width: 160px;
+            margin-left: 20px;
+        }
+        
+        .menu 
+        {
+            justify-content: center;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom:  auto;
+            font-size: 22px;
+        }
+        
+        .list > li {
+            margin-left: 20px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+  
+        .footer 
+        {
+            display: flex;
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            background-color:lightblue;
+            color: black;
+            border-radius: 15px 15px 0px 0px;
+            margin-top: 65px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+            </style>
+        </head>
+        
+        
+        <body>
+        
+            <header class="header">
+                <div class="logo">
+                   <img src="../ch_8_Final_Assignment_of_HTML/images/panacloud.png" alt="logo">
+                </div>
+        
+                <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </div>
-        <br>
+
 
         <form>
             <fieldset>
@@ -87,20 +150,16 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.472382494948!2d67.04613001428747!3d24.813514153250186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5361ff85a5%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1610041106430!5m2!1sen!2s"
                     width="97%" height="450" frameborder="0" style="border:0; margin-left: 20px; margin-top: 20px;" allowfullscreen="" aria-hidden="false"
                   tabindex="0"></iframe>
-        <br />
-        <br />
-        <br />
-        <br />
+  
 
 
 
-
-
-        <footer>
-            <div style="background:powderblue;border:1px solid #000000;padding: 2px;">
-            <p align="center"><b>Copyright &copy; 2019. All rights reserved.</b></p>
-        </footer>
-    </div>
+        <div>
+            <footer class="footer">
+                <p><b>Copyright &copy; 2019. All rights reserved.</b></p>
+            </footer>
+        </div>
+    
 </body>
 </html>
 
