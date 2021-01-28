@@ -5,7 +5,7 @@ HTML CSS Assignments By Muhammad Hamid Raza-PIAIC165665
 
 
 #### Contents:
-  1. [Chapter -1](Ch_1/#ch_1.html)
+  1. [Chapter -1](Ch_1/ch_1.html)
   2. [Chapter -2](Ch_2/ch_2.html)
   3. [Chapter -3](Ch_3/ch_3.html)
   4. [Chapter -4](Ch_4/ch_4a.html) | [Page 2](Ch_4/ch_4b.html)
