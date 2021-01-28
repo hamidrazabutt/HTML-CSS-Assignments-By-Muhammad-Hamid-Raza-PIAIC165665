@@ -13,8 +13,8 @@ HTML CSS Assignments By Muhammad Hamid Raza-PIAIC165665
   6. [Chapter -6](Ch_6/ch_6.html)
   7. [Chapter -7](Ch_7/ch_7.html)
   8. [Final Assignment of HTML](ch_8_Final_Assignment_of_HTML/index.html)
-  9. [Chapter -10](Ch_9-10/index)
-  10. [Chapter -11 -12](Ch_11-12/index)
-  11. [Chapter -13](Ch_13/index)
-  12. Final Assignment of CSS - (Final_Assignment_of_CSS/index.html)
+  9. [Chapter -10](Ch_9-10/index.html)
+  10. [Chapter -11 -12](Ch_11-12/index.html)
+  11. [Chapter -13](Ch_13/index.html)
+  12. [Final Assignment of CSS] - (Final_Assignment_of_CSS/index.html)
 ----------------------
